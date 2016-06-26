@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CFD8DC"
+    tools:context="com.example.delli5547.game_datastructures.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#7E57C2"
+        android:textAlignment="center"
+        android:hint="Comp Food Item"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:layout_marginLeft="155dp"
+        android:textAlignment="center"
+        android:id="@+id/tv2"
+        android:textSize="20sp"
+        android:layout_below="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"/>
+
+
+    <Button
+        android:id="@+id/button1"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="Naan"/>
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/tv1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+
+        android:layout_height="100dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="Naan"/>
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+    <Button
+        android:id="@+id/button6"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+
+    <Button
+        android:id="@+id/button7"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:text="Naan"/>
+
+
+
+    <Button
+        android:id="@+id/button8"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+    <Button
+        android:id="@+id/button9"
+        android:background="@drawable/rounded_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="130dp"
+        android:layout_toRightOf="@+id/button1"
+        android:text="Pani Puri"/>
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_below="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Start"
+        android:background="#3F51B5"
+        />
+
+</RelativeLayout>
